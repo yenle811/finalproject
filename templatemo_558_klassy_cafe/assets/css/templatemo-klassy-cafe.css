@@ -657,7 +657,7 @@ banner
 }
 
 #top .left-content {
-  background-image: url(../images/top-left-bg.jpg);
+  background-image: url(../images/top-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -898,17 +898,17 @@ about
 
 /*
 ---------------------------------------------
-menu
+book
 ---------------------------------------------
 */
 
-#menu {
+#book {
   margin-top: 120px;
   background-color: #fffafa;
   padding: 120px 0px;
 }
 
-#menu .section-heading {
+#book .section-heading {
   margin-bottom: 80px;
 }
 
@@ -967,7 +967,7 @@ menu
   color: #fff;
 }
 
-#menu .price h6 {
+#book .price h6 {
   position: absolute;
   width: 70px;
   height: 70px;
@@ -980,17 +980,17 @@ menu
   line-height: 70px;
 }
 
-#menu .card .main-text-button {
+#book .card .main-text-button {
   margin-left: 30px;
   margin-top: 20px;
   padding-bottom: 30px;
 }
 
-#menu .owl-menu-item {
+#book .owl-menu-item {
   position: relative;
 }
 
-#menu .owl-nav {
+#book .owl-nav {
   text-align: center;
   position: absolute;
   width: 100%;
@@ -998,21 +998,21 @@ menu
   transform: translateY(5px);
 }
 
-#menu .owl-dots {
+#book .owl-dots {
   display: none;
 }
     
-#menu .owl-nav .owl-prev{
+#book .owl-nav .owl-prev{
   margin-right: 10px;
   outline: none;
 }
 
-#menu .owl-nav .owl-prev span,
-#menu .owl-nav .owl-next span {
+#book .owl-nav .owl-prev span,
+#book .owl-nav .owl-next span {
   opacity: 0;
 }
 
-#menu .owl-nav .owl-prev:before {
+#book .owl-nav .owl-prev:before {
   display: inline-block;
   font-family: 'FontAwesome';
   color: #fb5849;
@@ -1021,30 +1021,30 @@ menu
   content: '\f104';
 }
 
-#menu .owl-nav .owl-prev {
+#book .owl-nav .owl-prev {
   opacity: 0.75;
   transition: all .5s;
 }
 
-#menu .owl-nav .owl-prev:hover {
+#book .owl-nav .owl-prev:hover {
   opacity: 1;
 }
 
-#menu .owl-nav .owl-next {
+#book .owl-nav .owl-next {
   opacity: 0.75;
   transition: all .5s;
 }
 
-#menu .owl-nav .owl-next:hover {
+#book .owl-nav .owl-next:hover {
   opacity: 1;
 }
 
-#menu .owl-nav .owl-next{
+#book .owl-nav .owl-next{
   margin-left: 10px;
   outline: none;
 }
 
-#menu .owl-nav .owl-next:before {
+#book .owl-nav .owl-next:before {
   display: inline-block;
   font-family: 'FontAwesome';
   color: #fb5849;
@@ -1056,27 +1056,27 @@ menu
 
 /*
 ---------------------------------------------
-chefs
+authors
 ---------------------------------------------
 */
 
-#chefs {
+#authors {
   padding-top: 120px;
 }
 
-#chefs .section-heading {
+#authors .section-heading {
   margin-bottom: 70px;
 }
 
-#chefs .section-heading h6 {
+#authors .section-heading h6 {
   padding-left: 0px;
 }
 
-#chefs .section-heading h6:before {
+#authors .section-heading h6:before {
   display: none;
 }
 
-#chefs .chef-item {
+#authors .chef-item {
   text-align: center;
   border: 1px solid #afafaf;
   padding: 5px;
@@ -1084,25 +1084,25 @@ chefs
   border-radius: 3px;
 }
 
-#chefs .chef-item:hover {
+#authors .chef-item:hover {
   border-color: #fb5849;
 }
 
-#chefs .chef-item:hover .down-content h4 {
+#authors .chef-item:hover .down-content h4 {
   color: #fb5849;
 }
 
-#chefs .chef-item .thumb {
+#authors .chef-item .thumb {
   position: relative;
 }
 
-#chefs .chef-item .thumb img {
+#authors .chef-item .thumb img {
   width: 100%;
   overflow: hidden;
   position: relative;
 }
 
-#chefs .chef-item .thumb .overlay {
+#authors .chef-item .thumb .overlay {
   position: absolute;
   background-color: #2a2a2a;
   border-radius: 3px;
@@ -1116,7 +1116,7 @@ chefs
   transition: all .3s;
 }
 
-#chefs .chef-item .thumb ul.social-icons {
+#authors .chef-item .thumb ul.social-icons {
   position: absolute;
   z-index: 11;
   top: 50%;
@@ -1128,12 +1128,12 @@ chefs
   visibility: hidden;
 }
 
-#chefs .chef-item .thumb ul.social-icons li {
+#authors .chef-item .thumb ul.social-icons li {
   display: inline-block;
   margin: 0px 5px;
 }
 
-#chefs .chef-item .thumb ul.social-icons li a {
+#authors .chef-item .thumb ul.social-icons li a {
   width: 40px;
   height: 40px;
   background-color: #fff;
@@ -1145,32 +1145,32 @@ chefs
   transition: all .5s;
 }
 
-#chefs .chef-item .thumb ul.social-icons li a:hover {
+#authors .chef-item .thumb ul.social-icons li a:hover {
   background-color: #fb5849;
 }
 
-#chefs .chef-item:hover .overlay {
+#authors .chef-item:hover .overlay {
   opacity: .9;
   visibility: visible;
 }
 
-#chefs .chef-item:hover ul.social-icons {
+#authors .chef-item:hover ul.social-icons {
   opacity: 1;
   visibility: visible;
 }
 
-#chefs .chef-item .down-content {
+#authors .chef-item .down-content {
   padding: 20px 0px;
 }
 
-#chefs .chef-item .down-content h4 {
+#authors .chef-item .down-content h4 {
   transition: all .3s;
   font-size: 20px;
   font-weight: 700;
   color: #2a2a2a;
 }
 
-#chefs .chef-item .down-content span {
+#authors .chef-item .down-content span {
   font-size: 14px;
   color: #2a2a2a;
 }
@@ -1178,33 +1178,33 @@ chefs
 
 /* 
 ---------------------------------------------
-reservation
+order
 --------------------------------------------- 
 */
 
-#reservation .section-heading {
+#order .section-heading {
   margin-bottom: 30px;
 }
 
-#reservation .section-heading h6 {
+#order .section-heading h6 {
   color: #fff;
 }
 
-#reservation .section-heading h2 {
+#order .section-heading h2 {
   color: #fff;
   font-weight: 700;
 }
 
-#reservation .section-heading h6:before {
+#order .section-heading h6:before {
   background-color: #fff;
 }
 
-#reservation p {
+#order p {
   color: #fff;
   margin-bottom: 65px;
 }
 
-#reservation {
+#order {
   margin-top: 120px;
   padding: 120px 0px;
   background-image: url(../images/reservation-bg.jpg);
@@ -1213,16 +1213,16 @@ reservation
   background-size: cover;
 }
 
-#reservation .phone,
-#reservation .message {
+#order .phone,
+#order .message {
   background-color: #fff;
   border-radius: 5px;
   text-align: center;
   padding: 0px 0px 20px 0px;
 }
 
-#reservation .phone i,
-#reservation .message i {
+#order .phone i,
+#order .message i {
   width: 70px;
   height: 70px;
   display: inline-block;
@@ -1238,23 +1238,23 @@ reservation
   margin-right: auto;
 }
 
-#reservation .phone h4,
-#reservation .message h4 {
+#order .phone h4,
+#order .message h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 15px;
   margin-bottom: 10px;
 }
 
-#reservation .phone span a,
-#reservation .message span a {
+#order .phone span a,
+#order .message span a {
   font-size: 14px;
   color: #2a2a2a;
   transition: all .3s;
 }
 
-#reservation .phone span a:hover,
-#reservation .message span a:hover {
+#order .phone span a:hover,
+#order .message span a:hover {
   color: #fb5849;
 }
 
@@ -1340,126 +1340,6 @@ reservation
 .contact-form ::placeholder {
   color: #2a2a2a;
 }
-
-/*
----------------------------------------------
-offers
----------------------------------------------
-*/
-
-#offers {
-  padding-top: 120px;
-}
-
-#offers .section-heading {
-  margin-bottom: 70px;
-}
-
-#offers .section-heading h6 {
-  padding-left: 0px;
-}
-
-#offers .section-heading h6:before {
-  display: none;
-}
-
-#offers .heading-tabs {
-  text-align: center;
-}
-
-#offers .heading-tabs .main-dark-button {
-  text-align: right;
-}
-
-#offers #tabs ul {
-  padding: 0;
-}
-#offers #tabs ul li {
-  display: inline-block;
-  margin: 0px 15px;
-}
-#offers #tabs ul li:last-child {
-  margin-right: 0px;
-}
-#offers #tabs ul li:first-child {
-  margin-left: 0px;
-}
-#offers #tabs ul li a {
-  text-transform: capitalize;
-  width: 100%;
-  display: inline-block;
-  font-size: 15px;
-  color: #2a2a2a;
-  font-weight: 600;
-  transition: all 0.3s;
-  text-align: center;
-}
-
-#offers #tabs ul li a img {
-  display: block;
-  margin: 0 auto 15px auto;
-}
-#offers #tabs ul .ui-tabs-active a {
-  color: #fb5849;
-  position: relative;
-}
-#offers #tabs ul .ui-tabs-active span {
-  color: #1e1e1e;
-}
-#offers .tabs-content {
-  margin-top: 60px;
-  text-align: left;
-  display: inline-block;
-  transition: all 0.3s;
-}
-#offers .tabs-content .tab-item {
-  position: relative;
-  margin-bottom: 60px;
-}
-#offers .tabs-content img {
-  float: left;
-  width: 100px;
-  max-width: 100px;
-  margin-right: 20px;
-  border-radius: 5px;
-}
-#offers .tabs-content h4 {
-  padding-top: 10px;
-  font-size: 20px;
-  font-weight: 700;
-  color: #2a2a2a;
-  margin-bottom: 10px;
-  margin-right: 100px;
-}
-
-#offers .tabs-content p {
-  margin-right: 100px;
-}
-
-#offers .tabs-content .left-list {
-  margin-right: 15px;
-}
-
-#offers .tabs-content .right-list {
-  margin-left: 15px;
-}
-
-#offers .tabs-content .price h6 {
-  position: absolute;
-  top: 15px;
-  right: 0;
-  width: 70px;
-  height: 70px;
-  background-color: #fb5849;
-  display: inline-block;
-  text-align: center;
-  line-height: 70px;
-  border-radius: 3px;
-  font-size: 18px;
-  font-weight: 700;
-  color: #fff;
-}
-
 
 /* 
 ---------------------------------------------
@@ -1559,10 +1439,10 @@ responsive
     margin-left: 0px;
     margin-top: 30px;
   }
-  #chefs .chef-item {
+  #authors .chef-item {
     margin-bottom: 30px;
   }
-  #reservation .phone {
+  #order .phone {
     margin-bottom: 60px;
   }
   #contact {
